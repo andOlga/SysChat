@@ -1,0 +1,29 @@
+#main {
+    height: calc(100% - 40px);
+    overflow-y: auto;
+}
+
+#input {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+@media only print {
+    #main {
+        overflow-y: visible;
+    }
+
+    .bubble {
+        page-break-inside: avoid;
+    }
+
+    #input {
+        display: none;
+    }
+}
+
+.pfp {
+    object-fit: cover;
+}

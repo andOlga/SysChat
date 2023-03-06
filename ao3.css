@@ -1,0 +1,36 @@
+.pfp {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+img {
+    max-width: 50vw;
+    max-height: 90vh;
+}
+
+.bubble {
+    border-radius: 10px;
+    border: solid gray 2px;
+    padding: 10px;
+    min-height: 100px;
+    margin-bottom: 10px;
+}
+
+.bubble .name {
+    font-weight: bold;
+}
+
+.bubble .time {
+    float: right;
+    color: gray;
+    margin-left: 10px;
+}
+
+.bubble .message {
+    display: block;
+    margin-top: 10px;
+    margin-left: 110px;
+}
