@@ -1,3 +1,5 @@
+# This repository is unmaintained. Up-to-date version on [Codeberg](https://codeberg.org/andOlga/syschat).
+
 # SysChat
 
 A single-player chat application.
